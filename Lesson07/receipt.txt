@@ -1,0 +1,6 @@
+chicken_burger: 3500
+sushi: 12500
+milk_shake: 2500
+coke: 2000
+milk_shake: 2500
+Payment amount : 23000
