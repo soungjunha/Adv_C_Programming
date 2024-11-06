@@ -8,7 +8,7 @@ int main() {
 	int n;
 	int len = 0;
 
-	printf("°³¼ö:");
+	printf("Â°Â³Â¼Ã¶:");
 	scanf("%d", &n);
 
 	str = (char**)malloc(strlen(data) * sizeof(char*));
