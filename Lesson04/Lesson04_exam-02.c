@@ -8,7 +8,7 @@ int main() {
 	num = (int*)malloc(sizeof(int) * 1);
 	for (int i = 1; ; i++)
 	{
-		printf("%d¹øÂ° ¼ıÀÚ: ", i);
+		printf("%dÂ¹Ã¸Ã‚Â° Â¼Ã½Ã€Ãš: ", i);
 		scanf("%d", &data);
 		if (data != 0)
 		{
@@ -22,6 +22,6 @@ int main() {
 	{
 		if (*(num + i) % 2 == 0) res += *(num + i);
 	}
-	printf("Â¦¼öÇÕ=> %d", res);
+	printf("Ã‚Â¦Â¼Ã¶Ã‡Ã•=> %d", res);
 	free(num);
 }
