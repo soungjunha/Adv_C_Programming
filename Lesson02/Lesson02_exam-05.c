@@ -37,7 +37,7 @@ int main() {
 		arr[i] = (arr[i - 1] + arr[i - 2]) % 15634;
 	}
 
-	printf("¿À¸§Â÷¼ø°ú ³»¸²Â÷¼øÀ» Á¤ÇÏ½Ã¿À(¿À¸§Â÷¼ø:u,³»¸²Â÷¼ø:d):");
+	printf("ì˜¤ë¦„ì°¨ìˆœê³¼ ë‚´ë¦¼ì°¨ìˆœì„ ì •í•˜ì‹œì˜¤(ì˜¤ë¦„ì°¨ìˆœ:u,ë‚´ë¦¼ì°¨ìˆœ:d):");
 	scanf("%c", &method);
 
 	if (method == 'u')
