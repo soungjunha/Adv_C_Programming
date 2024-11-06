@@ -13,12 +13,12 @@ float circumference(float r) {
 int main() {
 	int r;
 
-	printf("¹İÁö¸§ ÀÔ·Â:");
+	printf("ë°˜ì§€ë¦„ ì…ë ¥:");
 	scanf("%d", &r);
 
-	printf("¹İÁö¸§: %d\n", r);
-	printf("³ĞÀÌ: %lf\n", area(r));
-	printf("µÑ·¹: %lf", circumference(r));
+	printf("ë°˜ì§€ë¦„: %d\n", r);
+	printf("ë„“ì´: %lf\n", area(r));
+	printf("ë‘˜ë ˆ: %lf", circumference(r));
 
 
 }
