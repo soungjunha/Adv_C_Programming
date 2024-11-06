@@ -16,18 +16,18 @@ int main() {
     int assigned_rooms[5];
 
     for (int i = 0; i < 5; i++) {
-        printf("¿¹¾à ÀÎ¿ø: ");
+        printf("ì˜ˆì•½ ì¸ì›: ");
         scanf("%d", &num);
-        printf("¹æ Á¾·ù (V: VIP, N: ÀÏ¹İ): ");
+        printf("ë°© ì¢…ë¥˜ (V: VIP, N: ì¼ë°˜): ");
         scanf(" %c", &room);
 
         int result = reservation_hotel(num, room, assigned_rooms);
 
         if (result == -1) {
-            printf("¿¹¾à ½ÇÆĞ.\n");
+            printf("ì˜ˆì•½ ì‹¤íŒ¨.\n");
         }
         else {
-            printf("¿¹¾à ¼º°ø. ¹æ ¹øÈ£: ");
+            printf("ì˜ˆì•½ ì„±ê³µ. ë°© ë²ˆí˜¸: ");
             for (int j = 0; j < result; j++) {
                 printf("%d ", assigned_rooms[j]);
             }
