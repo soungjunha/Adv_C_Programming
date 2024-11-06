@@ -5,18 +5,18 @@ int main() {
 	int cnt = 0;
 	int* num = NULL;
 	int res = 0;
-	printf("ÀÔ·Â °³¼ö?");
+	printf("ìž…ë ¥ ê°œìˆ˜?");
 	scanf("%d", &cnt);
 	num = (int*)malloc(sizeof(int) * cnt);
 	for (int i = 0; i < cnt; i++)
 	{
-		printf("%d¹øÂ° ¼ýÀÚ: ", i + 1);
+		printf("%dë²ˆì§¸ ìˆ«ìž: ", i + 1);
 		scanf("%d", num + i);
 	}
 	for (int i = 0; i < cnt; i++)
 	{
 		if (*(num + i) % 2 == 0) res += *(num + i);
 	}
-	printf("Â¦¼öÇÕ=> %d", res);
+	printf("ì§ìˆ˜í•©=> %d", res);
 	free(num);
 }
