@@ -1,0 +1,4 @@
+-----------receipt----------
+Cafe Latte	 4000
+Cheesecake	 5500
+total:     9500
