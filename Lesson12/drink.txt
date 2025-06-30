@@ -1,0 +1,10 @@
+Americano 4500
+Vanilla_Latte 5500
+Cafe_Mocha 6000
+Green_Tea_Latte 5000
+Earl_Grey_Tea 4300
+Grapefruit_Honey_BlackTea 5700
+Peppermint_Tea 4200
+Caramel_Macchiato 6500
+Lemonade 4800
+Hibiscus_Tea 4600
